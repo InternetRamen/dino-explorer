@@ -18,7 +18,7 @@ let rows = 0;
     ctx.fillText("Loading", 50, 50);
     for (let i = 0; i < dinosArray.length; i++) {
         let dino = dinosArray[i];
-        await delay(5);
+        await delay(30);
         const dinoImg = new Image();
         console.log(i, dino);
         dinoImg.src = dino;
